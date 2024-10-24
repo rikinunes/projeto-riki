@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>aula 03</title>
+</head>
+<body>
+<center><font face="arial" color="brown" size="10">formulario de contato</font></center>
+<br/>
+<form action="titulo.html" method="post">
+<label for="nome">nome: </label>
+<input type="text" id="name" name="nome" placeholder="coloque seu nome" required>
+<br/>
+<br/>
+<label for="e-mail">e-mail: </label>
+<input type="text" id="e-mail" name="e-mail" placeholder="coloque seu e-mail" required>
+<br/>
+<br/>
+<label for="celular">celular: </label>
+<input type="tel" id="celular" name="celular" placeholder="(xx) xxxxx-xxxx">
+<label for="telefone">telefone: </label>
+<input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+<br/>
+<br/>
+<label for="genero">genero : </label>
+<select name="select_genero">
+<option value="option_genero">selecione seu genero</option>
+<option value="option_genero"> feminino</option>
+<option value="option_genero"> masculino</option>
+<option value="option_genero"> outros</option>
+</select>
+<br/>
+<br/>
+<label for="data_nacimento">data de nacimento</label>
+<input type="date" id="data_nascimento" name="data de nascimento">
+<label for="idade">idade</label>
+<input type="number" id="idade" name="Idade" min="0">
+<br/>
+<br/>
+<label for="idioma"> escolha seu idioma</label>
+<input type="radio" id="idioma" name="idioma" value="espanhol"> Espanhol
+<input type="radio" id="idioma" name="idioma" value="ingles"> Ingles
+<input type="radio" id="idioma" name="idioma" value="italiano">Italiano
+<input type="radio" id="idioma" name="idioma" value="portugues"> Portugues
+<input type="radio" id="idioma" name="idioma" value="nenhum"> nenhum
+<input type="radio" id="idioma" name="idioma" value="outro"> Outro
+<br/>
+<br/>
+<label for="outro_idioma">qual é o outro idioma: </label>
+<input type="text" id="outro_idioma" placeholder="insira o idioma">
+<br/>
+<br/>
+<label for="upload_arquivo">insira o curriculo</label>
+<input type="file" ip="upload_arquivos" name="upload_arquivos">
+<br/>
+<br/>
+<label for="termo_uso">leia atentamente nosso termo de uso</label>
+<iframe src="termo_de_uso.pdf" width="100%" height="500"> Termo de uso</iframe>
+<br/>
+<br/> 
+<input type="checkbox" id="termo_uso" name="termo_uso" required>
+<label for="termo_uso">Aceito o termo de uso</lebel>
+<br/>
+<br/>
+<a href="titulo"><button>Enviar</button></a> 
+</form>
+</br>
+<a href="aulas2.html" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwM25SnvwpOJGKPwn0HDCCzzSxC5yIAUGfVQ&s" width="25"/></a>
+</body>
+</html>
